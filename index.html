@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Создание аккаунта</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Создание аккаунта</h1>
+        <div class="fullName">
+            <div class="firstName">
+                <h4 class="firstNameText">Имя</h4>
+                <input type="text" placeholder="Введите имя" id="firstNameValue">
+            </div>
+            <div class="lastName">
+                <h4 class="lastNameText">Фамилия</h4>
+                <input type="text" placeholder="Введите фамилию" id="lastNameValue">
+            </div>
+        </div>
+        <div class="birthday">
+            <h4 class="birthdayText">Дата рождения</h4>
+            <input type="date" id="birthdayValue">
+        </div>
+        <div class="gender">
+            <h4 class="genderText">Пол</h4>
+            <input type="radio" id="male" name="radio">Мужской
+            <input type="radio" id="female" name="radio">Женский
+        </div>
+        <div class="email">
+            <h4 class="emailText">Почта</h4>
+            <input type="text" id="emailValue">
+        </div>
+        <div class="password">
+            <h4 class="passwordText">Пароль</h4>
+            <input type="text" id="passwordValue">
+        </div>
+        <div class="phone">
+            <h4>Номер телефона</h4>
+            <input type="" class="phoneNumber">
+        </div>
+        <div id="errorMessage"></div>
+        <br>
+        <button type="button" onclick="check()" class="button">Зарегистировать</button>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>

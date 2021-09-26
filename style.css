@@ -1,0 +1,15 @@
+.main {
+    width: 50%;
+    height: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: orchid;
+    color: blue;
+}
+
+
+#errorMessage {
+    color: red;
+}
