@@ -38,3 +38,10 @@ function check() {
     }
     
 }
+
+let inputs = document.querySelectorAll("input");
+console.log(inputs);
+
+for (let input of inputs) {
+    console.log(input.classList);
+}
